@@ -1,0 +1,11 @@
+.stackItem--flag {
+  left: initial;
+  right: 0;
+  top: 115%
+}
+
+.stackItem--wishlist{
+  left: initial;
+  right: 10px;
+  top: 12%;
+}

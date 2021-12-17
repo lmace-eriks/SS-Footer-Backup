@@ -1,0 +1,70 @@
+{
+    "menu-item#shop": {
+        "props": {
+            "blockClass": "mobile-menu-shop-title",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "SHOP",
+                "text": "SHOP"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#shop"
+        ]
+    },
+    "vtex.menu@2.x:submenu#shop": {
+        "children": [
+            "vtex.menu@2.x:menu#shop"
+        ]
+    },
+    "vtex.menu@2.x:menu#shop": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobile-menu-shop-submenu"
+        },
+        "children": [
+            "menu-item#shop-account",
+            "menu-item#shop-perks",
+            "menu-item#shop-history"
+        ]
+    },
+    "menu-item#shop-account": {
+        "props": {
+            "blockClass": "mobile-menu-shop-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/account",
+                "tagTitle": "My Account",
+                "text": "My Account"
+            }
+        }
+    },
+    "menu-item#shop-perks": {
+        "props": {
+            "blockClass": "mobile-menu-shop-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/low-price-guarantee",
+                "tagTitle": "Shred Shop Perks",
+                "text": "Shred Shop Perks"
+            }
+        }
+    },
+    "menu-item#shop-history": {
+        "props": {
+            "blockClass": "mobile-menu-shop-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/account#/orders",
+                "tagTitle": "Order History",
+                "text": "Order History"
+            }
+        }
+    }
+}

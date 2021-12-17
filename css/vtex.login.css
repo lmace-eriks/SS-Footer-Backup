@@ -1,0 +1,39 @@
+.container {
+	margin-left: 1rem;
+}
+
+.container :global(.vtex-button) {
+	border: 0;
+	border-radius: 0;
+	outline: none;
+}
+
+.container :global(.vtex-button:hover),
+.container :global(.vtex-button:focus) {
+	background: none;
+}
+
+.container :global(.vtex-button__label) {
+	padding: 0;
+}
+
+.container :global(.items-center) {
+	margin: 0;
+}
+
+.label,
+.profile {
+	display: none;
+}
+
+.box {
+	right: -36px !important;
+}
+
+.contentForm {
+	padding: 0;
+}
+
+.accountOptions :global(.ma4) {
+	margin: 0;
+}

@@ -1,0 +1,57 @@
+{
+    "flex-layout.col#desktop-phone-col": {
+        "props": {
+            "blockClass": "desktop-footer-phone-col",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "image#contact-phone",
+            "rich-text#phone-title",
+            "rich-text#phone-number",
+            "rich-text#phone-weekdays",
+            "rich-text#phone-weekends",
+            "rich-text#central-standard-time" // desktop-contact.jsonc
+        ]
+    },
+    "image#contact-phone": {
+        "props": {
+            "src": "/arquivos/phone-blue.png",
+            "blockClass": "footer-phone-icon"
+        }
+    },
+    "rich-text#phone-title": {
+        "props": {
+            "blockClass": "footer-phone-title",
+            "text": "PHONE",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#phone-number": {
+        "props": {
+            "blockClass": "footer-phone-number",
+            "text": "[1-877-734-7380](tel:18777347380)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#phone-weekdays": {
+        "props": {
+            "blockClass": "footer-phone-weekdays",
+            "text": "Mon-Fri: 9AM-7PM",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#phone-weekends": {
+        "props": {
+            "blockClass": "footer-phone-weekends",
+            "text": "Sat-Sun: 10AM-5PM",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

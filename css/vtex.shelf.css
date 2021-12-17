@@ -1,0 +1,19 @@
+.caretIcon{
+    background-color:#0000007a;
+    padding:5px;
+    border-radius:5px;
+}
+
+.title {
+    font-size:2rem !important;
+    margin:0 auto;
+    padding:0;
+}
+
+.sliderContainer {
+    margin-bottom:50px;
+}
+
+.dot--isActive {
+    background-color:#0f3e99;
+}

@@ -1,0 +1,44 @@
+.link--submenu-title-level2{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.label--submenu-title-level2{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.label--submenu-title-level2:hover{
+    border-bottom: 5px solid #00a2f2;
+}
+
+
+.buttonLink--viewfulldetails{
+  padding: 0 15px;
+  background: #FFFFFF;
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: #000
+}
+
+.link--viewfulldetails{
+  width: 100%
+}
+
+
+.buttonLink--viewfulldetails:hover{
+  padding: 0 15px;
+  background: #000;
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: #fff
+}
+
+

@@ -1,0 +1,61 @@
+.groupContainer--flag {
+	/* border-top: 70px solid transparent;
+	border-bottom: 70px solid #0188ea;
+	border-left: 70px solid transparent; */
+	width: 0;
+	height: 0;
+	margin: 0;
+}
+
+.badgeContainer--flag {
+	/* transform: rotate(-45deg); */
+	text-align: center;
+	width: auto;
+	position: absolute;
+	top: 5px;
+	right: 0;
+	border: 1px solid #ddd;
+	background-color: #eee;
+	border-radius: 0.2rem;
+	/* background: none; */
+	text-transform: uppercase;
+}
+
+.badgeText--flag {
+	font-size: .6875rem;
+	font-weight: 600;
+	color: #000;
+}
+
+.badgeContainer--closeout {
+	top: 95px;
+}
+
+.badgeContainer--closeout .badgeText--flag {
+	text-transform: capitalize;
+}
+
+.groupContainer--preOrderFlag {
+	background-color: #000;
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+	width:100%;
+	margin:0 0 10px 0 !important;
+}
+
+.badgeContainer--preOrderFlag {
+	background-color: #000;
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+	width:100%;
+}
+
+.badgeText--preOrderFlag {
+	color:#fff;
+	font-size:16px;
+	text-transform: uppercase;
+	text-align:center;
+	width:100%;
+}

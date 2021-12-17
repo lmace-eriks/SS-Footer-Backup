@@ -1,0 +1,228 @@
+
+.listFlex .listFlexItem:nth-child(3n+1) {
+  width: 100%;
+}
+
+.listFlex .listFlexItem:nth-child(3n) :global .vtex-card{
+  border-bottom: 5px solid red;
+}
+
+.listFlex .listFlexItem:nth-child(3n+1) :global .vtex-card{
+  border-bottom: 5px solid #2ec4ff;
+}
+
+.listFlex .listFlexItem:nth-child(3n+2) :global .vtex-card{
+  border-bottom: 5px solid black;
+}
+
+
+.listFlex .listFlexItem :global .vtex-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: none !important;
+}
+
+.listFlex .listFlexItem :global .vtex-card > a{
+  order: 0;
+}
+
+.listFlex .listFlexItem :global .vtex-card > h5{
+  order: 1;
+}
+
+.listFlex .listFlexItem :global .vtex-card > h3{
+  order: 2;
+}
+
+.listFlex .listFlexItem :global .vtex-card > div{
+  order: 3;
+}
+
+.listFlex .listFlexItem :global .vtex-card > a{
+  margin-bottom: 10px;
+}
+
+.listFlex .listFlexItem h5 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.listFlex .listFlexItem h5 a {
+  color: #1c75bb;
+  text-decoration: none;
+}
+
+.listFlex .listFlexItem h5 a:hover{
+  color: #8a8c8e;
+}
+
+.listFlex .listFlexItem h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.listFlex .listFlexItem h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.listFlex .listFlexItem h3 a:hover {
+  color: #444;
+  text-decoration: underline;
+}
+
+.listFlex .listFlexItem :global .vtex-card > div{
+  font-size: 20px;
+}
+
+
+.breadcrumbContainer {
+  background-color: #fff;
+  margin-bottom: 1px;
+  padding: 21px 0;
+  text-transform: capitalize;
+  font-family: "proxima-nova",Arial,Verdana,Helvetica,sans-serif;
+  font-size: 13px;
+}
+
+.breadcrumbContainer a {
+  color: #1c75bb;
+  text-decoration: none;
+}
+
+.postTitle {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.postFlex {
+  max-width: 90%;
+  border-bottom: 5px solid red !important;
+  margin-bottom: 20px !important;
+}
+
+.postMeta {
+  display: none;
+}
+
+.postContainer img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.postContainer > div > div {
+  text-align: left;
+}
+
+.postBody > figure img{
+  text-align: left;
+}
+
+.postBody p{
+  font-size: 20px;
+}
+
+.postBody figure {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 0;
+  color: #555d66;
+  text-align: center;
+  font-size: 13px;
+}
+
+
+.postBody img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.postBody a{
+  color: #1c75bb;
+  text-decoration: none;
+}
+
+.postBody h2{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 6px 0;
+}
+
+.postBody > div > div{
+  text-align: left;
+}
+
+.postBody > div > div a{
+  color: #1c75bb;
+  text-decoration: none;
+  /*margin-right: 15px;*/
+}
+
+/*.postBody > div > div a:last-child {
+  box-shadow: none;
+  opacity: .85;
+  text-decoration: none;
+  background: #32373c;
+  border-radius: 2em;
+  color: #fff;
+  font-size: 13px;
+  padding: .5em 1em;
+  margin-left: 15px;
+}*/
+
+/* Category */
+
+:global(.render-route-store-blog-category) .listFlex .listFlexItem {
+  width: 100%;
+}
+
+:global(.render-route-store-blog-category) .listFlex .listFlexItem img {
+  display: none;
+}
+
+:global(.render-route-store-blog-category) .listFlex .listFlexItem h5,
+:global(.render-route-store-blog-category) .listFlex .listFlexItem h3 {
+  text-align: left;
+}
+
+:global(.render-route-store-blog-category) .listFlex .listFlexItem :global .vtex-card > div {
+  padding-left: 0;
+}
+
+:global(.render-route-store-blog-category) .listTitle {
+  font-size: 24px;
+  text-align: left;
+  text-transform: capitalize;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Start Button Styling Code */
+.postBody > div i a {
+  box-shadow: none;
+  opacity: .85;
+  text-decoration: none;
+  background: #32373c;
+  border-radius: 2em;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+  margin: 15px auto;
+font-style:normal;
+display:block;
+max-width:500px;
+text-align:center;
+}
+/* End Button Styling Code */

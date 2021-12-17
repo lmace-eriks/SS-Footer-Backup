@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#mobile-copyright": {
+        "children": [
+            "flex-layout.col#mobile-copyright-col"
+        ],
+        "props": {
+            "blockClass": "mobile-footer-copyright-row"
+        }
+    },
+    "flex-layout.col#mobile-copyright-col": {
+        "children": [
+            "rich-text#copyright", // desktop-copyright.jsonc
+            "rich-text#vtex" // desktop-copyright.jsonc
+        ],
+        "props": {
+            "blockClass": "mobile-footer-copyright-col"
+        }
+    }
+}

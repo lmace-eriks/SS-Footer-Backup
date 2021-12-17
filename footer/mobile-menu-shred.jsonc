@@ -1,0 +1,70 @@
+{
+    "menu-item#shred": {
+        "props": {
+            "blockClass": "mobile-menu-shred-title",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "SHRED",
+                "text": "SHRED"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#shred"
+        ]
+    },
+    "vtex.menu@2.x:submenu#shred": {
+        "children": [
+            "vtex.menu@2.x:menu#shred"
+        ]
+    },
+    "vtex.menu@2.x:menu#shred": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobile-menu-shred-submenu"
+        },
+        "children": [
+            "menu-item#shred-history",
+            "menu-item#shred-team",
+            "menu-item#shred-blog"
+        ]
+    },
+    "menu-item#shred-history": {
+        "props": {
+            "blockClass": "mobile-menu-shred-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/history",
+                "tagTitle": "Shred History",
+                "text": "Shred History"
+            }
+        }
+    },
+    "menu-item#shred-team": {
+        "props": {
+            "blockClass": "mobile-menu-shred-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/enlist",
+                "tagTitle": "Team Rider Program",
+                "text": "Team Rider Program"
+            }
+        }
+    },
+    "menu-item#shred-blog": {
+        "props": {
+            "blockClass": "mobile-menu-shred-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/blog",
+                "tagTitle": "Blog",
+                "text": "Blog"
+            }
+        }
+    }
+}

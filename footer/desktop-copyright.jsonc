@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#desktop-copyright": {
+        "children": [
+            "flex-layout.col#desktop-copyright-col"
+        ],
+        "props": {
+            "blockClass": "desktop-footer-copyright-row"
+        }
+    },
+    "flex-layout.col#desktop-copyright-col": {
+        "children": [
+            "rich-text#copyright",
+            "rich-text#vtex"
+        ],
+        "props": {
+            "blockClass": "desktop-footer-copyright-col"
+        }
+    },
+    "rich-text#copyright": {
+        "props": {
+            "text": "Copyright Shred Shop Inc 2021 | [Privacy](https://www.shredshop.com/privacy)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "footer-copyright-shred"
+        }
+    },
+    "rich-text#vtex": {
+        "props": {
+            "text": "Powered by [VTEX](https://vtex.com/)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "footer-copyright-vtex"
+        }
+    }
+}

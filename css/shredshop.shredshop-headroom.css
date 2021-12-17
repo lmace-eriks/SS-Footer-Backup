@@ -1,0 +1,9 @@
+.container {
+    height: 100%; /* Set to 165px if Countdown is active above the header */
+}
+
+@media only screen and (max-width: 1050px) {
+    .container {
+        height: 100%;  /* Set to 185px if Countdown is active above the header */
+    }
+  }

@@ -1,0 +1,843 @@
+.flexRow--contact-title {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--contact-title .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--contact-title .flexCol {
+  align-items: center;
+}
+
+/* All content between Header and Footer on mobile product page - LM */
+.flexRowContent--product-mobile {
+  flex-direction: column;
+}
+
+/* Skeleton for product page. I think I should delete this - LM 12/16/2021 */
+.stretchChildrenWidth {
+  width: auto;
+}
+
+@media (max-width: 1279px) {
+  .stretchChildrenWidth {
+    width: 100% !important;
+  }
+}
+
+.flexRowContent--product-desktop {
+  margin: 0;
+  padding: 0;
+}
+
+.flexRow--product-desktop :global(.vtex-store-components-3-x-container) {
+  max-width: none;
+}
+
+/* This is the rule giving me the most problems.
+I can't isolate the block class and have it listen to me.
+the page looks awful without the background color - LM */
+.flexRow--product-desktop :global(.vtex-store-components-3-x-container)>div>div:last-child {
+  background-color: #f7f7f7;
+}
+
+.flexRow--product-desktop .flexCol--moving-col {
+  align-self: start;
+  height: auto;
+  position: sticky;
+  top: 0;
+}
+
+.flexCol--history-text {
+  background-color: #f5f5f5;
+  padding: 1.25rem;
+}
+
+@media (min-width:1024px) {
+  .flexRow--our-history {
+    display: none;
+  }
+}
+
+/* Galeria de info-cards na home */
+.flexRow--no-padding :global(.vtex-store-components-3-x-container) {
+  min-width: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+.flexRow--category-slides .stretchChildrenWidth {
+  width: 100% !important;
+  min-height: 10rem;
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 950px) {
+  .flexRow--category-slides .stretchChildrenWidth {
+    flex-basis: 33.333333%;
+  }
+
+  .flexRow--category-slides>div {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .flexCol--history-text {
+    padding: 4.375rem 5rem;
+  }
+
+  .flexRow--our-history {
+    height: 100vh;
+    min-height: 550px;
+    overflow: hidden;
+  }
+
+  .flexRow--our-history :global .vtex-store-components-3-x-container {
+    min-width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .flexRow--our-history :global(.vtex-flex-layout-0-x-stretchChildrenWidth:first-child) {
+    order: 1;
+  }
+}
+
+.flexRow--contact-container {
+  margin-top: 1rem;
+}
+
+.flexRow--contact-container :global(.vtex-store-components-3-x-container)>div {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .flexRow--contact-container :global(.vtex-store-components-3-x-container)>div {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+.flexRow--contact-container :global(.vtex-store-components-3-x-container)>div>div {
+  flex: 0 0 50%;
+  margin-bottom: 30px;
+  width: 50% !important;
+}
+
+@media (min-width: 768px) {
+  .flexRow--contact-container :global(.vtex-store-components-3-x-container)>div>div {
+    flex: 0 0 25%;
+    margin-bottom: 30px;
+    width: 25% !important;
+  }
+}
+
+.flexRow--contact-container .flexCol--contact-col {
+  align-items: center;
+}
+
+.flexRow--contact-container .flexCol--contact-col :global .vtex-rich-text-0-x-paragraph--contact-content--italic {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.flexCol .flexRow--contact-item {
+  margin-bottom: 10px;
+}
+
+.flexCol .flexRow--contact-item>div {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--contact-item img {
+  margin-right: 10px;
+}
+
+
+.flexRow--inst-layout-3-waiveform {
+  margin: 0 auto;
+  width: 640px;
+}
+
+/* Landing */
+
+.flexRow--categories {
+  background-color: #e1e1e0;
+  margin-top: -32px;
+}
+
+.flexRow--categories :global .vtex-store-components-3-x-container>div {
+  justify-content: center;
+}
+
+.flexRow--categories :global .vtex-store-components-3-x-container>div .vtex-store-components-3-x-imageElementLink {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow--landing-categories, .flexRow--eriks-buying-wrapper {
+  background-color: #f7f7f7;
+}
+
+.flexRow--landing-categories>section>div>.stretchChildrenWidth {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.flexRow--landing-categories :global(.vtex-rich-text-0-x-container--category-item-title) p {
+  color: #646464;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.flexRow--landing-categories :global(.vtex-store-components-3-x-imageElement--category-item-image) p {
+  max-width: 100%;
+}
+
+.flexRow--category-item-menu>div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+}
+
+.flexRow--category-item-menu>div>div {
+  flex-basis: 50%;
+}
+
+.flexRow--category-item-menu :global(.vtex-rich-text-0-x-container--category-item-link) a {
+  color: #646464;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.flexRow--eriks-buying-wrapper :global(.vtex-store-components-3-x-container) {
+  max-width: none;
+  padding: 2%;
+}
+
+.flexRow--eriks-buying-wrapper>section>div {
+  flex-wrap: wrap;
+}
+
+.flexRow--eriks-buying-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  flex-basis: 100%;
+}
+
+.flexRow--eriks-buying-wrapper :global(.vtex-rich-text-0-x-container--eriks-title) p {
+  font-size: 18px;
+  margin: 6px 0;
+}
+
+/* Menu Lateral - Home */
+
+.flexRow--menu-home :global(.vtex-store-components-3-x-container) {
+  display: none;
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  max-width: 300px;
+  padding: 10px 0 10px 10px;
+}
+
+@media (min-width: 1440px) {
+  .flexRow--menu-home :global(.vtex-store-components-3-x-container) {
+    display: block;
+  }
+}
+
+/* Institutional - Layout 2 */
+
+.flexCol--inst-layout-2 {
+  padding: 20px 8%;
+}
+
+:global table.GTable,
+:global table.GTable th,
+:global table.GTable td {
+  border: 1px solid black;
+  padding: 4px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+:global table.GTable th {
+  color: white;
+  background-color: red;
+  font-size: 16px;
+  text-align: center;
+}
+
+:global table.GTable td {
+  font-size: 14px;
+}
+
+.flexRow--taxa-trailer>div {
+  justify-content: center;
+}
+
+:global .GTaxaSignUp {
+  width: 90%;
+  text-align: left;
+  margin: auto;
+}
+
+:global .GGenEmail input {
+  height: 35px;
+  font-size: 16px;
+  border: 1px solid grey;
+  padding: 2px;
+  text-indent: 0 !important;
+  width: 70% !important;
+}
+
+:global #GTaxaSignUp table {
+  border: 2px solid black !important;
+  background: url("/arquivos/Taxa_Sign_Up_Bg.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+:global #GEmail th, :global .GGenEmail th {
+  padding: 7px;
+  font-size: 16px;
+  text-align: center;
+}
+
+:global #GEmail td:nth-child(1), :global .GGenEmail td:nth-child(1) {
+  width: 30%;
+}
+
+:global #GEmail td, :global .GGenEmail td {
+  padding: 7px;
+  border-top: 1px solid black;
+}
+
+:global #GEmail td:nth-child(2), :global .GGenEmail td:nth-child(2) {
+  width: 70%;
+}
+
+:global #GEmail input#submit, :global .GGenEmail input#submit {
+  background-color: #3d3e3d;
+  color: white;
+}
+
+
+/* Institutional - Layout 3 */
+
+.flexRow--inst-layout-3-careers {
+  margin: 0 auto;
+  width: 640px;
+}
+
+.flexRow--inst-layout-3-donation-description>div {
+  flex-direction: column;
+}
+
+.flexRow--inst-layout-3 {
+  width: 100%;
+}
+
+.flexRow--inst-layout-3>div>div {
+  width: 100%;
+}
+
+.flexColChild--inst-layout-3 {
+  height: 25%;
+}
+
+:global .halfback-points {
+  border-bottom: 2px solid #7c7c7c;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.flexCol--inst-layout-3 {
+  max-width: 1000px;
+}
+
+:global .c-on-base {
+  color: BLACK;
+}
+
+:global ul.bulletedList {
+  margin: 10px;
+  font-weight: normal;
+  font-family: "proxima-nova", Arial, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+:global ul.bulletedList-donation {
+  margin: 10px;
+  font-weight: normal;
+  font-family: "proxima-nova", Arial, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+:global ul.bulletedList-donation a {
+  color: #1c75bb;
+  text-decoration: none;
+
+}
+
+:global .list-layaway {
+  margin: 10px;
+  font-weight: normal;
+  font-family: "proxima-nova", Arial, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+:global ul.bulletedList h2 {
+  font-weight: normal;
+}
+
+:global .vtex-rich-text-0-x-link {
+  text-decoration-line: none;
+}
+
+
+:global table.GTable,
+:global table.GTable th,
+:global table.GTable td {
+  border: 1px solid black;
+  padding: 4px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+:global table.GTable th {
+  color: white;
+  background-color: red;
+  font-size: 16px;
+  text-align: center;
+}
+
+:global table.GTable td {
+  font-size: 14px;
+}
+
+:global #emf-form {
+  position: relative;
+  padding: 15px 15px 5px;
+  margin-bottom: 0;
+}
+
+.flexRow--manual-list .stretchChildrenWidth {
+  margin: 0 10px;
+}
+
+.flexRow--manual-list img {
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+/* Custom Institutional */
+
+.flexRow--trufit-internal {
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  padding: 5px 0px;
+  margin: 5px 0px;
+}
+
+.flexRow--trufit-internal-2 {
+  border-bottom: 3px solid black;
+  padding: 5px 0px;
+  margin: 5px 0px;
+}
+
+.flexCol--bike-fit-internal {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.flexRow--brands-home {
+  background-image: url(/arquivos/eriksbike.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.flexRow--pdp-promo :global .vtex-store-components-3-x-highlightContent {
+  background-color: #41464f;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.flexRow--pdp-promo :global .vtex-store-components-3-x-highlightContent .vtex-store-components-3-x-highlightTitle {
+  display: none;
+}
+
+.flexRow--pdp-promo :global .vtex-store-components-3-x-highlightContent .vtex-store-components-3-x-highlightValue,
+.flexRow--pdp-promo :global .vtex-store-components-3-x-highlightContent .vtex-store-components-3-x-highlightValue a {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.flexRow--pdp-promo :global .vtex-store-components-3-x-highlightContent .vtex-store-components-3-x-highlightValue a {
+  text-decoration: underline;
+}
+
+.flexRow--highlights-extra-table {
+  background-color: #f2f2f2;
+  padding: 1rem 10%;
+  margin-top: 1rem;
+}
+
+.flexRow--product-desktop :global .vtex-store-components-3-x-container>div>div:first-child>.vtex-flex-layout-0-x-flexCol>div:last-child {
+  padding: 0;
+}
+
+.flexRow--highlights-extra-list {
+  background-color: #f2f2f2;
+  padding: 1rem 10%;
+  margin-bottom: 2rem;
+}
+
+.flexRow--highlights-extra-list :global(.vtex-store-components-3-x-highlightValue) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow--product-desktop :global .vtex-store-components-3-x-container>div>div:first-child>.vtex-flex-layout-0-x-flexCol>div:nth-child(3) {
+  padding: 0;
+}
+
+:global [class~=render-route-store-custom] .vtex-search-result-3-x-gallery::before {
+  display: none;
+}
+
+/* Buying Guide */
+
+.flexCol--faq :global .vtex-menu-2-x-menuItem .vtex-menu-2-x-styledLinkContainer--faq-eriks-road div {
+  white-space: normal;
+}
+
+.flexCol--faq :global .vtex-menu-2-x-menuItem .vtex-menu-2-x-submenuAccordion--submenu-categorias {
+  flex-direction: column;
+}
+
+.flexRow--custom-guide-wrapper :global .vtex-store-components-3-x-container .vtex-carousel-2-x-arrow {
+  flex-basis: auto;
+}
+
+.flexRow--custom-guide-wrapper :global .vtex-store-components-3-x-imageElement {
+  width: 100%;
+}
+
+.flexCol--location-availability-col {
+  height: 132px;
+}
+
+/*:global(.items-start > div) {*/
+/*  width: 100%;*/
+/*}*/
+
+:global(.items-start .vtex-rich-text-0-x-image) {
+  width: 100%;
+}
+
+.flexRow--riders {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.flexRow--bike-fit-internal-riders {
+  justify-content: end;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--bike-fit-internal-riders .items-start .vtex-rich-text-0-x-image) {
+  width: auto !important;
+}
+
+.flexRow--eriks-buying-wrapper p {
+  width: 96%;
+  background-color: #f7f7f7;
+  text-align: left;
+  color: #646464;
+}
+
+.flexRow--eriks-buying-wrapper :global(.vtex-rich-text-0-x-paragraph--eriks-item-content) {
+  font-size: 13px;
+}
+
+
+:global(.vtex-store-components-3-x-imageElement--madison) {
+  margin-top: 20px;
+}
+
+/* Institutional - Layout 2 */
+
+.flexCol--brands:hover :global .vtex-rich-text-0-x-paragraph--brands {
+  opacity: 1;
+}
+
+.flexCol--brands .flexColChild--brands:first-child {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flexCol--brands .flexColChild--brands:last-child {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+.flexCol--shred-history {
+  background: url('/arquivos/shred-home-banner-history.jpg');
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 0px 7px rgba(0, 0, 0, 1);
+  height: 110vh;
+  position: relative;
+}
+
+.flexCol--shred-history .flexRow>div {
+  flex-direction: column;
+  position: relative;
+  transform: translateY(20%);
+  background: rgba(255, 255, 255, 0.8);
+  border: solid 20px #000;
+  top: 30%;
+  padding: 30px;
+}
+
+.flexCol--team-rider {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/arquivos/Shred_Enlist_Background.jpg');
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 0px 7px rgba(0, 0, 0, 1);
+  /*height: 100vh;*/
+}
+
+.flexCol--team-rider .flexColChild {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media(min-width: 1026px) {
+  .flexCol--team-rider {
+    display: flex;
+    justify-content: center;
+    /*height: 100vh;*/
+  }
+
+  .flexCol--shred-history .flexRow>div {
+    position: absolute;
+    transform: translateY(0);
+    width: 50%;
+    right: 20%;
+  }
+}
+
+.flexRow--image-enlist :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexCol--form-enlist {
+  background: #eee;
+}
+
+.flexColChild--form-enlist {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+@media(max-width: 1024px) {
+  .flexRow--pdp-promo {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Basic Page Template CSS - GB add */
+.flexRow--g-basic-template {
+  max-width: 1000px;
+  box-sizing: border-box;
+  margin: 10px auto;
+  border: 5px solid yellow;
+}
+
+/* Product Page Title, Price, Color, Size, Quantity, Add to Cart, Zip Container - LM */
+.flexColChild--moving-col {
+  background-color: #f7f7f7;
+}
+
+/* This should be the container for the right side of the desktop product page.
+Not currently working. Need to match the background color of .flexColChild--moving-col - LM */
+.product-desktop {
+  /* display: none; */
+}
+
+/* Desktop Footer Entire Main Container - LM */
+.flexRow--desktop-footer-container {}
+
+/* Desktop Footer Main Col Container - LM */
+.flexCol--desktop-footer-col-container {
+  width: 90% !important;
+  /* Overrides StretchChild code I don't think we have access to - LM */
+}
+
+/* Desktop Footer Main Col Children - LM */
+.flexColChild--desktop-footer-col-container {}
+
+/* Desktop Footer Newsletter Row - LM */
+.flexRow--desktop-footer-newsletter-row {
+  border-bottom: 1px solid #f7f7f7;
+}
+
+/* Desktop Footer Newsletter Content - LM */
+.flexRowContent--desktop-footer-newsletter-row {}
+
+/* Desktop Footer Contact Row - LM */
+.flexRow--desktop-footer-contact-row {
+  padding: 1rem 0;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+/* Desktop Footer Contact Content - LM */
+.flexRowContent--desktop-footer-contact-row {}
+
+/* Desktop Footer Contact Col Containers.
+These rules primarily exist for centering the blue png icons - LM */
+.flexColChild--desktop-footer-phone-col,
+.flexColChild--desktop-footer-email-col,
+.flexColChild--desktop-footer-chat-col {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Desktop Footer Info (Shop / Shred / Help) Row - LM */
+.flexRowContent--desktop-footer-info-row {
+  margin: 0.5rem 0;
+}
+
+/* Desktop Footer Social Row - LM */
+.flexRow--desktop-footer-social-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Desktop Footer Socail Icons Container - LM */
+.flexRowContent--desktop-footer-social-row {
+  margin: 0.5rem 0;
+  width: fit-content;
+}
+
+/* Desktop Footer Copyright Row - LM */
+.flexRow--desktop-footer-copyright-row {
+  margin-bottom: 2rem;
+}
+
+/* Desktop Footer Copyright Content - LM */
+.flexRowContent--desktop-footer-copyright-row {}
+
+/* Mobile Footer Entire Main Container - LM */
+.flexCol--mobile-footer-col-container{
+    
+}
+
+/* Mobile Footer Phone Col - LM */
+.flexCol--mobile-footer-phone-col{}
+
+/* Mobile Footer Email Col - LM */
+.flexCol--mobile-footer-email-col{}
+
+/* Mobile Footer Chat Col - LM */
+.flexCol--mobile-footer-chat-col {}
+
+/* Mobile Footer Phone Col - LM */
+.flexCol--mobile-footer-phone-col {}
+
+/* Mobile Footer Phone Col Children - LM */
+.flexColChild--mobile-footer-phone-col {}
+
+/* Mobile Footer Email Col - LM */
+.flexCol--mobile-footer-email-col {}
+
+/* Mobile Footer Email Col Children - LM */
+.flexColChild--mobile-footer-email-col {}
+
+/* Mobile Footer Chat Col - LM */
+.flexCol--mobile-footer-chat-col {}
+
+/* Mobile Footer Chat Col Children - LM */
+.flexColChild--mobile-footer-chat-col {}
+
+/* Mobile Footer Contact Rows - LM */
+.flexRow--mobile-phone-row,
+.flexRow--mobile-email-row,
+.flexRow--mobile-chat-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mobile Footer Contact Rows' Content - LM */
+.flexRowContent--mobile-phone-row,
+.flexRowContent--mobile-email-row,
+.flexRowContent--mobile-chat-row {
+  width: 80%;
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Mobile Footer Chat Row Content - LM */
+.flexRowContent--mobile-chat-row {
+  border-bottom: none;
+  /* Override border bottom - LM */
+}
+
+/* Product Page "Add To Cart" Button - LM */
+.flexRow--buyButtonRow :global(.vtex-button){
+  width: 90%;
+}
+
+/* Mobile Footer Social Row - LM */
+.flexRow--mobile-footer-social-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/* Mobile Footer Socail Icons Container - LM */
+.flexRowContent--mobile-footer-social-row {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 0;
+  width: fit-content;
+}
+
+/* Mobile Footer Copyright Row - LM */
+.flexRow--mobile-footer-copyright-row {
+  margin-bottom: 5rem;
+}

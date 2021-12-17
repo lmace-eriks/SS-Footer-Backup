@@ -1,0 +1,39 @@
+{
+    "flex-layout.row#desktop-social": {
+        "children": [
+            "image#facebookIcon",
+            "image#twitterIcon",
+            "image#instagramIcon"
+        ],
+        "props": {
+            "blockClass": "desktop-footer-social-row"
+        }
+    },
+    "image#facebookIcon": {
+        "props": {
+            "alt": "Facebook Logo",
+            "link": "https://www.facebook.com/shredshop",
+            "src": "/arquivos/footer-facebook.png",
+            "maxWidth": "24",
+            "blockClass": "footer-facebook-logo"
+        }
+    },
+    "image#twitterIcon": {
+        "props": {
+            "alt": "Twitter Logo",
+            "link": "https://twitter.com/shredshop",
+            "src": "/arquivos/footer-twitter.png",
+            "maxWidth": "24",
+            "blockClass": "footer-twitter-logo"
+        }
+    },
+    "image#instagramIcon": {
+        "props": {
+            "alt": "Instagram Logo",
+            "link": "https://www.instagram.com/shredshop/",
+            "src": "/arquivos/footer-instagram.png",
+            "maxWidth": "24",
+            "blockClass": "footer-instagram-logo"
+        }
+    }
+}

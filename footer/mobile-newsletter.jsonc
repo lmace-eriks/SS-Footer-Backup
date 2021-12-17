@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#mobile-newsletter": {
+        "children": [
+            "newsletter#mobile"
+        ],
+        "props": {
+            "blockClass": "mobile-footer-newsletter-row"
+        } 
+    },
+    "newsletter#mobile": {
+        "props": {
+            "label": "Love gear? Sweet! Join our Email List!",
+            "placeholder": "Email Address",
+            "submit": "Subscribe",
+            "blockClass": "mobile-newsletter-input" // vtex.store-components.css
+        }
+    }
+}

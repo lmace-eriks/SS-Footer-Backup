@@ -1,0 +1,55 @@
+:global(.vtex__icon-success) {
+  color: #8bc34a !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+:global(.review__paging) {
+  margin-bottom: 1rem;
+}
+
+:global(#pr-write) {
+  padding: 20px 8%;
+}
+
+:global(.p-w-r .pr-star-v4-0-filled) {
+  background-image: url("//www.eriksbikeshop.com/assets/images/PowerReviews/PR_0_Filled_Star.png") !important;
+}
+
+:global(.p-w-r .pr-star-v4-25-filled) {
+  background-image: url("//www.eriksbikeshop.com/assets/images/PowerReviews/PR_25_Filled_Star.png") !important;
+}
+
+:global(.p-w-r .pr-star-v4-50-filled) {
+  background-image: url("//www.eriksbikeshop.com/assets/images/PowerReviews/PR_50_Filled_Star.png") !important;
+}
+
+:global(.p-w-r .pr-star-v4-75-filled) {
+  background-image: url("//www.eriksbikeshop.com/assets/images/PowerReviews/PR_75_Filled_Star.png") !important;
+}
+
+:global(.p-w-r .pr-star-v4-100-filled) {
+  background-image: url("//www.eriksbikeshop.com/assets/images/PowerReviews/PR_100_Filled_Star.png") !important;
+}
+
+:global(#pr-write .p-w-r h5) {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+:global(#pr-write .p-w-r h3) {
+  color: #000;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+:global(.pr-btn-review) {
+  -webkit-appearance: none;
+}
+
+.powerReviewsRatingInline {
+  text-align: left;
+  margin: 0 !important;
+  padding: 0 !important
+}

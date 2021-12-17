@@ -1,0 +1,48 @@
+{
+    "flex-layout.col#desktop-chat-col": {
+        "props": {
+            "blockClass": "desktop-footer-chat-col",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "image#contact-chat",
+            "rich-text#chat-title",
+            "rich-text#chat-weekdays",
+            "rich-text#chat-weekends",
+            "rich-text#central-standard-time" // desktop-contact.jsonc
+        ]
+    },
+    "image#contact-chat": {
+        "props": {
+            "src": "/arquivos/chat-blue.png",
+            "blockClass": "footer-chat-icon"
+        }
+    },
+    "rich-text#chat-title": {
+        "props": {
+            "blockClass": "footer-chat-title",
+            "text": "CHAT",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#chat-weekdays": {
+        "props": {
+            "blockClass": "footer-chat-weekdays",
+            "text": "Mon-Fri: 9AM-7PM",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#chat-weekends": {
+        "props": {
+            "blockClass": "footer-chat-weekends",
+            "text": "Sat-Sun: 10AM-5PM",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

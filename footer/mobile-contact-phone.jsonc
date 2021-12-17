@@ -1,0 +1,18 @@
+{
+    "flex-layout.col#mobile-phone-col": {
+        "props": {
+            "blockClass": "mobile-footer-phone-col",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#phone-title", // desktop-contact-phone.jsonc
+            "rich-text#phone-number", // desktop-contact-phone.jsonc
+            "rich-text#phone-weekdays", // desktop-contact-phone.jsonc
+            "rich-text#phone-weekends", // desktop-contact-phone.jsonc
+            "rich-text#central-standard-time" // desktop-contact.jsonc
+        ]
+    }
+}

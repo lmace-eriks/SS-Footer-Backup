@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#mobile-info": {
+        "children": [
+            "vtex.menu@2.x:menu#stores-menu"
+        ],
+        "props": {
+            "blockClass": "mobile-footer-info-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#stores-menu": {
+        "children": [
+            "menu-item#shop", // mobile-menu-shop.jsonc
+            "menu-item#shred", // mobile-menu-shred.jsonc
+            "menu-item#help" // mobile-menu-help.jsonc
+        ],
+        "props": {
+            "isOpen": true,
+            "blockClass": "mobile-info-menu",
+            "orientation": "vertical"
+        }
+    }
+}

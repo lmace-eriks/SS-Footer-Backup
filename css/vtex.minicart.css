@@ -1,0 +1,101 @@
+.label {
+  font-size: 14px;
+}
+
+.content :global(.vtex-store-components-3-x-productBrand) {
+  color: #6f6f6f;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.07;
+}
+
+.content :global(.vtex-store-components-3-x-sellingPrice) {
+  color: #8e8e8e;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-right: .125rem;
+}
+
+
+.contentFooter .contentPrice :global(.vtex-store-components-3-x-sellingPrice) {
+  color: #ee2d25;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contentFooter > div:last-child {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.contentFooter > div:last-child button{
+  width: 100%;
+}
+
+.contentFooter > div:last-child div{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.badge {
+  background-color: #00a2f2;
+}
+
+.container :global(.vtex-button.hover-bg-action-secondary):focus, .container :global(.vtex-button.hover-bg-action-secondary):hover {
+  background-color: transparent;
+  outline: none;
+}
+
+.content :global .vtex-product-summary-2-x-element .vtex-product-summary-2-x-imageNormal {
+  height: auto;
+}
+
+:global .vtex-minicart-2-x-contentFooter .vtex-minicart-2-x-contentDiscount span {
+  padding-right: 10px;
+  color: black;
+}
+
+:global .vtex-minicart-2-x-contentFooter .vtex-store-components-3-x-sellingPriceContainer {
+  position: relative;
+}
+
+:global .vtex-minicart-2-x-contentFooter .vtex-minicart-2-x-contentPrice,
+:global .vtex-minicart-2-x-contentFooter .vtex-store-components-3-x-sellingPriceContainer,
+:global .vtex-minicart-2-x-contentFooter .vtex-minicart-2-x-contentPrice .vtex-store-components-3-x-sellingPriceValue {
+  width: 100%;
+}
+
+:global .vtex-minicart-2-x-contentFooter .vtex-minicart-2-x-contentPrice .vtex-store-components-3-x-sellingPriceValue {
+  text-align: right;
+}
+
+:global .vtex-minicart-2-x-contentFooter .vtex-minicart-2-x-contentPrice .vtex-store-components-3-x-sellingPriceContainer:before {
+    display: block;
+    content: "Subtotal";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    font-size: 19px;
+    font-weight: 700;
+    color: #231f20;
+}
+
+:global .vtex-minicart-2-x-contentFooter .vtex-minicart-2-x-contentPrice .vtex-store-components-3-x-sellingPriceContainer::after {
+    display: block;
+    content: "Before tax & shipping";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    font-size: 16px;
+    color: #a7a9ac;
+}
+
+.openIconContainer button:hover {
+  background-color:#2d2d2d;
+}
+
+.minicartQuantityBadge {
+  background-color:#00a2f2;
+}

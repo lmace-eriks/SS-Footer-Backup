@@ -1,0 +1,38 @@
+{
+    "flex-layout.col#desktop-email-col": {
+        "props": {
+            "blockClass": "desktop-footer-email-col",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "image#contact-email",
+            "rich-text#email-title",
+            "rich-text#email-address"
+        ]
+    },
+    "image#contact-email": {
+        "props": {
+            "src": "/arquivos/email-blue.png",
+            "blockClass": "footer-email-icon"
+        }
+    },
+    "rich-text#email-title": {
+        "props": {
+            "blockClass": "footer-email-title",
+            "text": "E-MAIL",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#email-address": {
+        "props": {
+            "blockClass": "footer-email-address",
+            "text": "[help@shredshop.com](mailto:help@shredshop.com)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

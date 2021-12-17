@@ -1,0 +1,83 @@
+{
+    "menu-item#help": {
+        "props": {
+            "blockClass": "mobile-menu-help-title",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "HELP",
+                "text": "HELP"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#help"
+        ]
+    },
+    "vtex.menu@2.x:submenu#help": {
+        "children": [
+            "vtex.menu@2.x:menu#help"
+        ]
+    },
+    "vtex.menu@2.x:menu#help": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobile-menu-help-submenu"
+        },
+        "children": [
+            "menu-item#help-customer-service",
+            "menu-item#help-shipping",
+            "menu-item#help-returns",
+            "menu-item#help-warranty"
+        ]
+    },
+    "menu-item#help-customer-service": {
+        "props": {
+            "blockClass": "mobile-menu-help-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/customer-service",
+                "tagTitle": "Customer Service",
+                "text": "Customer Service"
+            }
+        }
+    },
+    "menu-item#help-shipping": {
+        "props": {
+            "blockClass": "mobile-menu-help-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/shipping-information",
+                "tagTitle": "Shipping Info",
+                "text": "Shipping Info"
+            }
+        }
+    },
+    "menu-item#help-returns": {
+        "props": {
+            "blockClass": "mobile-menu-help-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/returns",
+                "tagTitle": "Returns",
+                "text": "Returns"
+            }
+        }
+    },
+    "menu-item#help-warranty": {
+        "props": {
+            "blockClass": "mobile-menu-help-item",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/warrantyinformation",
+                "tagTitle": "Warranty Info",
+                "text": "Warranty Info"
+            }
+        }
+    }
+}

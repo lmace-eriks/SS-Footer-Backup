@@ -1,0 +1,162 @@
+.drawer--menu-mobile > div:first-child {
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+}
+
+.drawer--menu-mobile .closeIconContainer {
+  align-items: center;
+  background-color: #f7f7f7;
+  display: flex;
+  height: 57px;
+  position: relative;
+}
+
+.drawer--menu-mobile .closeIconContainer::before {
+  content: 'MAIN MENU';
+  font-size: 14px;
+  font-weight: 600;
+  flex-grow: 1;
+  display: block;
+  margin-left: 1rem;
+}
+
+.drawer--menu-mobile svg {
+  color: red;
+}
+
+.drawer--menu-mobile nav {
+  width: 100%;
+}
+
+.drawer--menu-mobile :global(.vtex-menu-2-x-menuItem) {
+  /* padding: 16px 0; */
+  position: relative;
+}
+
+.drawer--menu-mobile :global(.vtex-menu-2-x-menuContainer) {
+  width: 100%;
+}
+
+.drawer--menu-mobile :global(.vtex-menu-2-x-styledLinkContainer) {
+    padding: 16px 0;
+    position: relative;
+}
+
+.drawer--menu-mobile li a > div {
+  position: relative;
+}
+
+.drawer--menu-mobile li:not(:global(.vtex-menu-2-x-menuItem--dark)) :global(.vtex-menu-2-x-styledLinkContainer)::before {
+  border-bottom: 1px solid #f0f0f0;
+  bottom: 0;
+  content: '';
+  display: block;
+  left: -20%;
+  position: absolute;
+  width: 130%;
+  z-index: 3;
+}
+
+.drawer--menu-mobile li:global(.vtex-menu-2-x-menuItem--dark) {
+  background-color: black;
+}
+
+.drawer--menu-mobile li:global(.vtex-menu-2-x-menuItem--dark) a {
+  color: white;
+  font-weight: bold;
+}
+
+.drawer--menu-mobile li:global(.vtex-menu-2-x-menuItem--dark) a > div::before {
+  content: '';
+  background-repeat: no-repeat;
+  height: 16px;
+  left: -16px;
+  right: auto;
+  width: 16px;
+  position: absolute;
+}
+
+.drawer--menu-mobile :global(#menu-item-orders) > div::before {
+  content: '!';
+  font-size: .8rem;
+  font-weight: 600;
+  color: #4d4d4d;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  text-align: center;
+  left: -19px;
+}
+
+.drawer--menu-mobile :global(#menu-item-customer-service) > div::before {
+  background-image: url('/arquivos/help.png');
+  left: -19px;
+}
+
+.drawer--menu-mobile :global(#menu-item-store-locator) > div::before {
+    background-image: url('/arquivos/pin-white.png');
+}
+
+.drawer--menu-mobile li:global(.vtex-menu-2-x-menuItem--dark) a > div {
+  margin-left: 16px;
+}
+
+.drawer--menu-mobile :global(.vtex-menu-2-x-menuItem--submenu-first-level) {
+  width: 100%;
+}
+
+.drawer--menu-mobile :global(.vtex-menu-2-x-menuItem--submenu-first-level) :global(.vtex-menu-2-x-styledLinkContainer) {
+  padding-left: 16px;
+}
+
+.drawer--menu-mobile :global(.vtex-menu-2-x-submenu--first-level) li a > div {
+  margin-left: 16px;
+}
+
+.drawer--menu-mobile li a, .drawer--menu-mobile li :global(.vtex-menu-2-x-styledLinkContainer) > span > div {
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.drawer--menu-mobile :global(li a.c-emphasis) {
+  font-style: italic;
+}
+
+/* .drawer--menu-mobile li:not(:global(.vtex-menu-2-x-menuItem--last-level)) > div > a {
+  display: inline-block;
+}
+
+.drawer--menu-mobile li:not(:global(.vtex-menu-2-x-menuItem--last-level)) > :global(.vtex-menu-2-x-styledLinkContainer)::after {
+  content: '>';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(30%);
+  z-index: 3;
+} */
+
+.drawer--menu-mobile li:global(.vtex-menu-2-x-menuItem--category-header) div, .drawer--menu-mobile li:global(.vtex-menu-2-x-menuItem--category-header-blog) div {
+  border: 0;
+}
+
+.drawer--menu-mobile :global(.vtex-menu-2-x-submenu--first-level) > div {
+  width: 100%;
+}
+
+.drawer--menu-mobile :global(.vtex-menu-2-x-submenu--first-level) nav{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.drawer--menu-mobile :global(.vtex-menu-2-x-submenu--first-level) :global(.vtex-menu-2-x-menuContainer) li {
+  padding: 16px 0;
+}

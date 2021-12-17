@@ -1,0 +1,49 @@
+{
+    "flex-layout.col#desktop-shred-col": {
+        "props": {
+            "blockClass": "desktop-footer-shred-col",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#shred-title",
+            "rich-text#shred-history",
+            "rich-text#shred-team",
+            "rich-text#shred-blog"
+        ]
+    },
+    "rich-text#shred-title": {
+        "props": {
+            "blockClass": "footer-shred-title",
+            "text": "SHRED",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#shred-history": {
+        "props": {
+            "blockClass": "footer-shred-history",
+            "text": "[Shred History](https://www.shredshop.com/history)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#shred-team": {
+        "props": {
+            "blockClass": "footer-shred-team",
+            "text": "[Team Rider Program](https://www.shredshop.com/enlist)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#shred-blog": {
+        "props": {
+            "blockClass": "footer-shred-blog",
+            "text": "[Blog](https://www.shredshop.com/blog)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

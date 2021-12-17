@@ -1,0 +1,15 @@
+{
+    "flex-layout.col#mobile-email-col": {
+        "props": {
+            "blockClass": "mobile-footer-email-col",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#email-title", // desktop-contact-email.jsonc
+            "rich-text#email-address" // desktop-contact-email.jsonc
+        ]
+    }
+}

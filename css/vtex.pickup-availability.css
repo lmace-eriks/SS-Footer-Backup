@@ -1,0 +1,19 @@
+.container :global(.ml3) {
+  margin-left: 0;
+}
+
+.container button {
+  background-color: #262626;
+  border-color: #262626;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.container button:hover {
+  background-color: #262626;
+  border-color: #262626;
+  color: white;
+}

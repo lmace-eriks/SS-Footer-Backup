@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#desktop-contact": {
+        "children": [
+            "flex-layout.col#desktop-phone-col", // desktop-contact-phone.jsonc
+            "flex-layout.col#desktop-email-col", // desktop-contact-email.jsonc
+            "flex-layout.col#desktop-chat-col" // desktop-contact-chat.jsonc
+        ],
+        "props": {
+            "blockClass": "desktop-footer-contact-row"
+        }
+    },
+    "rich-text#central-standard-time": {
+        "props": {
+            "text": "We Be CST",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "footer-central-standard-time"
+        }
+    }
+}

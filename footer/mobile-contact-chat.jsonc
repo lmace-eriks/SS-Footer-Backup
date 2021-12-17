@@ -1,0 +1,17 @@
+{
+    "flex-layout.col#mobile-chat-col": {
+        "props": {
+            "blockClass": "mobile-footer-chat-col",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#chat-title", // desktop-contact-chat.jsonc
+            "rich-text#chat-weekdays", // desktop-contact-chat.jsonc
+            "rich-text#chat-weekends", // desktop-contact-chat.jsonc
+            "rich-text#central-standard-time" // desktop-contact.jsonc
+        ]
+    }
+}

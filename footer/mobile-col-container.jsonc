@@ -1,0 +1,18 @@
+{
+    "flex-layout.col#mobile-footer-col-container": {
+        "props": {
+            "blockClass": "mobile-footer-col-container",
+            "horizontalAlign": "left", // Don't touch - LM
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.row#mobile-newsletter", // mobile-newsletter.jsonc
+            "flex-layout.row#mobile-contact", // mobile-contact.jsonc
+            "flex-layout.row#mobile-info", // mobile-info.jsonc
+            "flex-layout.row#mobile-social", // mobile-social.jsonc
+            "flex-layout.row#mobile-copyright" // mobile-copyright.jsonc
+        ]
+    }
+}

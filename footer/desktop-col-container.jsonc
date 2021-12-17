@@ -1,0 +1,18 @@
+{
+    "flex-layout.col#desktop-footer-col-container": {
+        "props": {
+            "blockClass": "desktop-footer-col-container",
+            "horizontalAlign": "left", // Don't touch - LM
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.row#desktop-newsletter", // desktop-newsletter.jsonc
+            "flex-layout.row#desktop-contact", // desktop-contact.jsonc
+            "flex-layout.row#desktop-info", // desktop-info.jsonc
+            "flex-layout.row#desktop-social", // desktop-social.jsonc
+            "flex-layout.row#desktop-copyright" // desktop-copyright.jsonc
+        ]
+    }
+}

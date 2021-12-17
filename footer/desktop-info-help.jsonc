@@ -1,0 +1,58 @@
+{
+    "flex-layout.col#desktop-help-col": {
+        "props": {
+            "blockClass": "desktop-footer-help-col",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#help-title",
+            "rich-text#help-customer-service",
+            "rich-text#help-shipping",
+            "rich-text#help-returns",
+            "rich-text#help-warranty"
+        ]
+    },
+    "rich-text#help-title": {
+        "props": {
+            "blockClass": "footer-help-title",
+            "text": "HELP",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#help-customer-service": {
+        "props": {
+            "blockClass": "footer-help-customer-service",
+            "text": "[Customer Service](https://www.shredshop.com/customer-service)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#help-shipping": {
+        "props": {
+            "blockClass": "footer-help-shipping",
+            "text": "[Shipping Info](https://www.shredshop.com/shipping-information)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#help-returns": {
+        "props": {
+            "blockClass": "footer-help-returns",
+            "text": "[Returns](https://www.shredshop.com/returns)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#help-warranty": {
+        "props": {
+            "blockClass": "footer-help-warranty",
+            "text": "[Warranty Info](https://www.shredshop.com/warrantyinformation)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

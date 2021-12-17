@@ -1,0 +1,30 @@
+:global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .availabilityHeader{
+  font-size: 14px !important;
+  font-weight: bold !important;
+  text-align: left;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  padding: 10px;
+  /* text-transform: uppercase !important; */
+}
+:global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .availabilityHeader:hover{
+  background-color: #eee;
+}
+
+:global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .availabilityHeaderLink{
+  color: #000 !important
+}
+
+/* :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .container :first-child {
+    width: 50%;
+  } */
+:global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .container{
+  border: 1px solid #000;
+  border-left: 15px solid #000;
+  padding: 10px;
+  border-radius: 0.25rem !important;
+}
+
+:global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .shippingOption{
+  margin: 0;
+}

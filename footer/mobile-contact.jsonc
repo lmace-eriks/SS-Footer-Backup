@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#mobile-contact": {
+        "children": [
+            "flex-layout.col#mobile-contact-container"
+        ],
+        "props": {
+            "blockClass": "mobile-footer-contact-row"
+        }
+    },
+    "flex-layout.col#mobile-contact-container": {
+        "children": [
+            "flex-layout.row#mobile-phone-row",
+            "flex-layout.row#mobile-email-row",
+            "flex-layout.row#mobile-chat-row"
+        ],
+        "props": {
+            "blockClass": "mobile-contact-container"
+        }
+    },
+    "flex-layout.row#mobile-phone-row": {
+        "children": [
+            "flex-layout.col#mobile-phone-col" // mobile-contact-phone.jsonc
+        ],
+        "props": {
+            "blockClass": "mobile-phone-row"
+        }
+    },
+    "flex-layout.row#mobile-email-row": {
+        "children": [
+            "flex-layout.col#mobile-email-col" // mobile-contact-email.jsonc
+        ],
+        "props": {
+            "blockClass": "mobile-email-row"
+        }
+    },
+    "flex-layout.row#mobile-chat-row": {
+        "children": [
+            "flex-layout.col#mobile-chat-col" // mobile-contact-chat.jsonc
+        ],
+        "props": {
+            "blockClass": "mobile-chat-row"
+        }
+    }
+}

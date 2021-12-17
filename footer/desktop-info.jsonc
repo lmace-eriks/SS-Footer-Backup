@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#desktop-info": {
+        "children": [
+            "flex-layout.col#desktop-shop-col", // desktop-info-shop.jsonc
+            "flex-layout.col#desktop-shred-col", // desktop-info-shred.jsonc
+            "flex-layout.col#desktop-help-col" // desktop-info-help.jsonc
+        ],
+        "props": {
+            "blockClass": "desktop-footer-info-row"
+        }
+    }
+}

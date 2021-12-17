@@ -1,0 +1,63 @@
+.footerLayout {
+  background-image: url('/arquivos/shred-footer.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footerLayout .row--menu-row {
+  background-color: transparent;
+  /* padding-right: 24px; */
+  padding-right: 0;
+}
+
+.footerLayout :global(.vtex-store-components-3-x-container) {
+  width: 100%;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+  margin: 0 5%;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .row--menu-row nav {
+    width: 100%;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer--footer-main-menu)>section {
+    max-width: 46rem;
+  }
+}
+
+.row--footer-main-menu-container, .row--footer-social-container, .row--footer-copyright-container {
+  background: transparent;
+}
+
+.row--footer-main-menu-container nav {
+  width: 100%;
+}
+
+.row--menu-row> :global(.vtex-store-components-3-x-container), .row--footer-main-menu-container> :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.row--footer-social-container {
+  margin-top: 20px;
+}
+
+.row--footer-copyright-container {
+  margin-top: 1rem;
+}
+
+.row--footer-social-container :global(.vtex-store-components-3-x-logoContainer) {
+  padding: 8px;
+}
+
+.row--footer-copyright-container .rowContainer {
+  flex-direction: column;
+}

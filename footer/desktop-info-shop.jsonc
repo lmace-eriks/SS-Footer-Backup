@@ -1,0 +1,49 @@
+{
+    "flex-layout.col#desktop-shop-col": {
+        "props": {
+            "blockClass": "desktop-footer-shop-col",
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventVerticalStretch": "true",
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#shop-title",
+            "rich-text#shop-account",
+            "rich-text#shop-perks",
+            "rich-text#shop-history"
+        ]
+    },
+    "rich-text#shop-title": {
+        "props": {
+            "blockClass": "footer-shop-title",
+            "text": "SHOP",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#shop-account": {
+        "props": {
+            "blockClass": "footer-shop-account",
+            "text": "[My Account](https://www.shredshop.com/account)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#shop-perks": {
+        "props": {
+            "blockClass": "footer-shop-perks",
+            "text": "[Shred Shop Perks](https://www.shredshop.com/low-price-guarantee)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#shop-history": {
+        "props": {
+            "blockClass": "footer-shop-history",
+            "text": "[Order History](https://www.shredshop.com/account#/orders)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

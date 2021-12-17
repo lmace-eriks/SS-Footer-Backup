@@ -1,0 +1,46 @@
+.layoutContainer button {
+  background-color: black !important;
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.sliderTrack {
+  margin-bottom: 2rem;
+}
+
+.sliderTrack :global .vtex-rich-text-0-x-container {
+  height: 100%;
+}
+
+.sliderTrack :global .vtex-rich-text-0-x-container > div  {
+  height: 100%;
+  width: 100%;
+}
+
+.sliderTrack :global .vtex-rich-text-0-x-container > div .vtex-rich-text-0-x-paragraph {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.sliderTrack :global .vtex-rich-text-0-x-container > div .vtex-rich-text-0-x-paragraph .vtex-rich-text-0-x-link,
+.sliderTrack :global .vtex-rich-text-0-x-container > div .vtex-rich-text-0-x-paragraph .vtex-rich-text-0-x-link .vtex-rich-text-0-x-image {
+  height: 100%;
+  width: 100%;
+}
+
+.layoutContainer .dotsContainer{
+  margin-bottom: .5rem;
+}
+
+.layoutContainer .dotsContainer .dot:global(.bg-emphasis) {
+  opacity: .75;
+}
+
+.layoutContainer .dotsContainer .dot {
+  background-color: black;
+  opacity: .25;
+}
